@@ -1,0 +1,325 @@
+﻿  GUI.cpp
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(11,35): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(11,35): message : 尝试匹配参数列表“(const char *)”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(12,37): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(12,37): message : 尝试匹配参数列表“(const char *)”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(14,21): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(14,21): message : 尝试匹配参数列表“(int, int, const char *)”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(22,30): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(22,30): message : 尝试匹配参数列表“(IMAGE *, const char *, int, int)”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(30,38): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [7]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(30,27): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8910,1): message : 参见“SetWindowTextW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(36,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(36,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(44,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(44,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(50,30): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(50,30): message : 尝试匹配参数列表“(const char *)”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(51,22): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(51,22): message : 尝试匹配参数列表“(int, int, const char *)”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(75,57): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [105]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(75,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(80,84): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(80,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(89,67): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(89,30): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(97,96): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(97,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(114,57): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [105]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(114,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(119,84): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(119,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(128,67): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(128,30): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(136,96): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(136,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(154,57): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [105]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(154,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(159,96): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(159,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(168,64): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(168,30): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(193,41): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(193,27): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8910,1): message : 参见“SetWindowTextW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(195,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(195,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(220,80): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [88]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(220,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(229,70): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [105]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(229,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(251,121): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [205]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(251,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(284,41): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(284,27): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8910,1): message : 参见“SetWindowTextW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(287,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(287,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(313,63): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [50]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(313,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(346,63): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [50]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(346,15): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(366,41): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(366,27): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8910,1): message : 参见“SetWindowTextW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(368,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\GUI.cpp(368,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+  library.cpp
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(46,93): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [27]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(46,35): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(67,65): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(67,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(106,65): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(106,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(111,87): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [22]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(111,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(126,80): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [17]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(126,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(157,61): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(157,27): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(191,62): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [50]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(191,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(199,71): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(199,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(207,37): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(207,37): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(208,72): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(208,72): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(208,133): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(208,133): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(208,171): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(209,75): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(209,75): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(209,139): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(209,139): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(209,180): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(210,86): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(210,86): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(210,161): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(210,161): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(210,213): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(211,85): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(211,85): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(211,159): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(211,159): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(211,210): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(219,62): error C2664: “bool InputBox(LPTSTR,int,LPCTSTR,LPCTSTR,LPCTSTR,int,int,bool)”: 无法将参数 1 从“char [50]”转换为“LPTSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(219,14): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(287,6): message : 参见“InputBox”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(227,71): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(227,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(235,37): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(235,37): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(236,72): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(236,72): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(236,133): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(236,133): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(236,171): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(237,75): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(237,75): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(237,139): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(237,139): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(237,180): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(238,86): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(238,86): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(238,161): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(238,161): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(238,213): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(239,85): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(239,85): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(239,159): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(239,159): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(239,210): error C2661: “outtextxy”: 没有重载函数接受 2 个参数
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(261,30): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(266,30): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(283,65): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(283,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(288,77): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [19]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.cpp(288,31): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+  logo.cpp
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\deedd\Desktop\图书管理系统\编程实战\logo.cpp(75,35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\deedd\Desktop\图书管理系统\编程实战\logo.cpp(92,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\deedd\Desktop\图书管理系统\编程实战\logo.cpp(127,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\deedd\Desktop\图书管理系统\编程实战\logo.cpp(224,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Table.cpp
+C:\Users\deedd\Desktop\图书管理系统\编程实战\library.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(45,41): error C2664: “BOOL SetWindowTextW(HWND,LPCWSTR)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(45,27): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8910,1): message : 参见“SetWindowTextW”的声明
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(49,30): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(49,30): message : 尝试匹配参数列表“(int, int, const char [5])”时
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(59,80): error C2665: “textheight”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(230,5): message : 可能是“int textheight(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(229,5): message : 或    “int textheight(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(59,80): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(60,77): error C2665: “textwidth”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(228,5): message : 可能是“int textwidth(TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(227,5): message : 或    “int textwidth(LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(60,77): message : 尝试匹配参数列表“(const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(61,43): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\cyuyan\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\deedd\Desktop\图书管理系统\编程实战\Table.cpp(61,43): message : 尝试匹配参数列表“(int, int, const _Elem *)”时
+          with
+          [
+              _Elem=char
+          ]
+  正在生成代码...
